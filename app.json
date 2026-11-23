@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "horariotec",
+    "name": "HorarioTec",
     "slug": "horariotec",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -20,6 +20,11 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "plugins": [
+      "expo-font",
+      "expo-router"
+    ],
+    "scheme": "horariotec"
   }
 }
